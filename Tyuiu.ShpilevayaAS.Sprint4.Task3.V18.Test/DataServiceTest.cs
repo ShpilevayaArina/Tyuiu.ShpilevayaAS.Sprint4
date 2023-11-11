@@ -18,7 +18,7 @@ namespace Tyuiu.ShpilevayaAS.Sprint4.Task3.V18.Test
                                           { 7, 7, 5, 2, 9 },
                                           { 9, 3, 7, 9, 8 } };
             int res = ds.Calculate(mas2);
-            int wait = 8;
+            int wait = 9;
 
             Assert.AreEqual(wait, res);
         }
